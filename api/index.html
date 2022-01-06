@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="/styles.css">
+        <meta charset="utf-8">
+        <meta property="og:title" content="hiii im elia">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="und du bist?">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>API connection sample thingy</h1>
+        <section id="intro">
+            <p>
+                if you dont know what an API is you should probably not be here
+                <br>(the api has an invalid certificate at the moment so this page will become "not secure" when you send a request)
+            </p>
+        </section>
+
+        <section id="requests">
+            <textarea placeholder="your link here" cols="40" rows="1" id="requestaddr">https://api.elia.cam:3000/</textarea>
+            <br>
+            <button onclick="request()">send request</button>
+            <br>
+            <p>result:</p>
+            <br><textarea cols="100" rows="20" id="result"></textarea>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

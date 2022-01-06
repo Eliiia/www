@@ -5,15 +5,29 @@ body {
     text-align: center;
 }
 
+img {
+    width: auto
+}
+
+/* general text styling */
 a {
     text-decoration: none;
     color: #928374;
 }
 
-img {
-    width: auto
-}
-
 p {
     font-size: 0.9em;
+}
+
+/* form styling */
+textarea {
+    background-color: #1d2021;
+    color: #bdae93;
+    overflow: hidden;
+    overflow-wrap: normal;
+    resize: vertical;
+}
+button {
+    background-color: #1d2021;
+    color: #bdae93;
 }
