@@ -23,9 +23,7 @@ p {
 textarea {
     background-color: #1d2021;
     color: #bdae93;
-    overflow: hidden;
-    overflow-wrap: normal;
-    resize: vertical;
+    resize: none;
 }
 button {
     background-color: #1d2021;
