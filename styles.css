@@ -1,31 +1,33 @@
 body {
-    background-color: #282828;
-    color: #ebdbb2;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-align: center;
+  background-color: #282828;
+  color: #ebdbb2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
 }
 
 img {
-    width: auto
+  width: auto;
 }
 
 /* general text styling */
 a {
-    text-decoration: none;
-    color: #928374;
+  text-decoration: none;
+  color: #928374;
 }
 
 p {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 /* form styling */
 textarea {
-    background-color: #1d2021;
-    color: #bdae93;
-    resize: none;
+  background-color: #1d2021;
+  color: #bdae93;
+  resize: none;
 }
 button {
-    background-color: #1d2021;
-    color: #bdae93;
+  background-color: #1d2021;
+  color: #bdae93;
 }
