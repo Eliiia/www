@@ -31,3 +31,12 @@ button {
   background-color: #1d2021;
   color: #bdae93;
 }
+
+/* footer shit */
+footer {
+  background-color: #282828;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
